@@ -1,0 +1,30 @@
+{
+  "cutoff": "2025-09-01",
+  "train_rows": 38477,
+  "holdout_rows": 9523,
+  "train_end": "2025-08-31",
+  "holdout_start": "2025-09-01",
+  "holdout_end": "2025-10-31",
+  "models": {
+    "full": {
+      "metrics": {
+        "MAE": 112.17,
+        "RMSE": 632.069,
+        "R2": 0.82845
+      },
+      "best_iteration": 154
+    },
+    "december_compatible": {
+      "metrics": {
+        "MAE": 122.954,
+        "RMSE": 634.553,
+        "R2": 0.8271
+      },
+      "best_iteration": 138
+    }
+  },
+  "missing_training": {
+    "weight": 300,
+    "market_index": 374
+  }
+}
